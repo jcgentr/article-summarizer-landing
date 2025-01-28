@@ -27,11 +27,11 @@ export default function Home() {
         id="hero"
         className="px-4 py-20 md:py-32 mx-auto max-w-7xl text-center"
       >
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-12">
           Get the <span className="text-[hsl(217,91%,60%)]">gist</span> of any
           web article
         </h1>
-        <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8">
+        <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-16">
           Because life's too short for long articles you're not sure about.
           Transform lengthy content into clear, concise summaries instantly.
         </p>
@@ -153,7 +153,9 @@ export default function Home() {
               </div>
 
               <Button className="w-full mt-6" asChild>
-                <Link href="/signup?plan=pro">Upgrade to Pro</Link>
+                <Link href="https://app.getgistr.com/signup?plan=pro">
+                  Upgrade to Pro
+                </Link>
               </Button>
 
               <ul className="mt-8 space-y-4">
@@ -344,7 +346,7 @@ export default function Home() {
               <ul className="space-y-2">
                 <li>
                   <Link
-                    href="https://www.getgistr.com/privacy-policy"
+                    href="https://app.getgistr.com/privacy-policy"
                     className="text-sm text-white/90 hover:text-white"
                   >
                     Privacy Policy
