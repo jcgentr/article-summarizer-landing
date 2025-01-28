@@ -1,6 +1,15 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Clock, Star, Check } from "lucide-react";
+import {
+  ArrowRight,
+  Sparkles,
+  Clock,
+  Star,
+  Check,
+  Printer,
+  Trophy,
+  Tags,
+} from "lucide-react";
 import Image from "next/image";
 import chromeLogo from "@/app/images/chrome_icon.png";
 import {
@@ -66,12 +75,27 @@ export default function Home() {
             <FeatureCard
               icon={<Clock />}
               title="Save Time"
-              description="Quickly decide if an article is worth your full attention with accurate summaries."
+              description="Know exactly how long articles take to read with estimated read times before diving in."
             />
             <FeatureCard
               icon={<Star />}
               title="Personal Library"
               description="Build your own collection of summaries, organize with tags, and access them anywhere."
+            />
+            <FeatureCard
+              icon={<Tags />}
+              title="Smart Tagging"
+              description="Find articles easily with AI-generated tags that automatically categorize your content."
+            />
+            <FeatureCard
+              icon={<Trophy />}
+              title="Community Insights"
+              description="Discover trending content through most-read and highest-rated article leaderboards. (Coming soon)"
+            />
+            <FeatureCard
+              icon={<Printer />}
+              title="Print Friendly"
+              description="Generate clean, printer-friendly versions of articles for offline reading. (Coming soon)"
             />
           </div>
         </div>
