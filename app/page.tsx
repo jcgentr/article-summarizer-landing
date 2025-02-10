@@ -51,12 +51,25 @@ export default function Home() {
               Add to Chrome
             </Link>
           </Button>
-          <Button size="lg" variant="outline" className="h-14" asChild>
-            <Link href="https://demo.getgistr.com" target="_blank">
-              Try Demo
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
+          <div className="relative group">
+            <div
+              className="absolute -inset-0.5 rounded-lg opacity-70 group-hover:opacity-100 transition duration-1000 animate-pulse"
+              style={{
+                background: "linear-gradient(90deg, #2563eb, #9333ea)",
+              }}
+            />
+            <Button
+              size="lg"
+              variant="outline"
+              className="relative h-14 bg-background hover:bg-background/80 border-0"
+              asChild
+            >
+              <Link href="https://demo.getgistr.com" target="_blank">
+                Try Demo
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
 
