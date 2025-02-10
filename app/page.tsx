@@ -88,14 +88,14 @@ export default function Home() {
               description="Find articles easily with AI-generated tags that automatically categorize your content."
             />
             <FeatureCard
+              icon={<Printer />}
+              title="Print Friendly"
+              description="Generate clean, printer-friendly versions of articles for offline reading."
+            />
+            <FeatureCard
               icon={<Trophy />}
               title="Community Insights"
               description="Discover trending content through most-read and highest-rated article leaderboards. (Coming soon)"
-            />
-            <FeatureCard
-              icon={<Printer />}
-              title="Print Friendly"
-              description="Generate clean, printer-friendly versions of articles for offline reading. (Coming soon)"
             />
           </div>
         </div>
