@@ -367,7 +367,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="mailto:contact@getgistr.com"
+                    href="mailto:jcgentr@icloud.com"
                     className="text-sm text-white/90 hover:text-white"
                   >
                     Contact
